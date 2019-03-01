@@ -4,3 +4,5 @@ Create a ModelForm for a new Car. Allow a user to sumbit the car's make, model, 
 - Miles per gallon less than 20. Say"That's less than a truck!!!"
 - Miles per gallon that's greater than 500. Say "That's impossible (in 2019)
 - Any year that's less than 2019. Say "That's not new!!!"
+<hr>
+0 points. In order to run the form I had to add the csrf token and make field into fields on the form page. Aferwards data wasn't reading or writing from the database.
